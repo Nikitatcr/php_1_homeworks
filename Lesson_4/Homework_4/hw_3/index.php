@@ -19,7 +19,7 @@
 
             function makeGallery($images) {
                 for($i=2;$i<count($images);$i++):?>
-                <div>
+                <div align="center">
                         <img id="myImg" width="25%" src="src/img/<?= $images[$i]?>">
                 </div>
                         <hr>
